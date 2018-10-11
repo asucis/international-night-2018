@@ -1,0 +1,29 @@
+.countdown .container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-areas: 
+        "days hours min"
+        "days hours min";
+}
+  
+.countdown .days {
+    margin: 1em;
+    grid-area: days;
+    justify-self: center;
+}
+
+.countdown .hours {
+    margin: 1em;
+    grid-area: hours;
+    justify-self: center;
+}
+
+.countdown .min {
+    margin: 1em;
+    grid-area: min;
+    justify-self: center;
+}
+
+.countdown .label {
+    font-weight: bold;
+}
