@@ -1,4 +1,5 @@
 # International Night 2018
+International Night is our biggest event and is also asu's most cultural event promoting understanding between different cultures.
 
 ## Running the project
 
