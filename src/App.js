@@ -36,8 +36,7 @@ class App extends Component {
             </div>
           </div>
           <div className="credits">
-            <span role="img" aria-label="copyright">©️ </span>
-             2018
+            <span role="img" aria-label="copyright">©️ 2018</span>
             <a
             className="credits-link"
             href="https://asucis.com"
