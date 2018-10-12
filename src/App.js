@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import logo from './globe.png'
+import logo from './in-globe.png'
 import './App.css'
 import Countdown from './Components/Countdown'
 import Button from '@material-ui/core/Button'
@@ -26,7 +26,7 @@ class App extends Component {
             <Button size="small" variant="contained" color="default">
             <a
             className="App-link"
-            href="https://asucis.com"
+            href="https://www.facebook.com/events/2108742422677762/"
             target="_blank"
             rel="noopener noreferrer"
             >
@@ -36,7 +36,8 @@ class App extends Component {
             </div>
           </div>
           <div className="credits">
-            ©️ 2018
+            <span role="img" aria-label="copyright">©️ </span>
+             2018
             <a
             className="credits-link"
             href="https://asucis.com"
