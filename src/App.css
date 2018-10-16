@@ -14,9 +14,9 @@
 }
 
 .App-header {
-  background: #5433FF;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #73b6e3, #e8d073);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #73b6e3, #e8d073); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #5433FF;
+  background: -webkit-linear-gradient(to right, #73b6e3, #e8d073);
+  background: linear-gradient(to right, #73b6e3, #e8d073);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -40,26 +40,20 @@
   }
 }
 
-.countdown-details {
+.event-details {
   padding: 1rem;
   border: 3px dotted #fff;
 }
 
-.credits {
-  font-size: 0.8rem;
-  margin: 3.8rem 0rem 2rem;
+.event-details .date {
+  margin: 0rem 0rem 0.5rem;
 }
 
-.credits-link {
-  color: #fff;
-  text-decoration: none;
-  padding: 0.3rem;
+.event-details .location i {
+
+  color: red;
 }
 
-.credits-link:hover {
-  text-decoration: underline;
-}
-
-.action-button {
-  margin: 1rem 0rem 0.5rem;
+.countdown-title h1 {
+  margin-bottom: 0;
 }
