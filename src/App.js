@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import logo from './in-globe.png'
-import './App.css'
 import Countdown from './Components/Countdown'
 import Button from '@material-ui/core/Button'
 import Footer from './Components/Footer'

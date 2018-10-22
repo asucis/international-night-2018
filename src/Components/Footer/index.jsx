@@ -1,6 +1,4 @@
-import React, { Component } from 'react'
-import PropTypes from 'prop-types';
-import './style.css'
+import React from 'react'
 import '@fortawesome/fontawesome-free/css/all.css'
 
 const Footer = () => (
