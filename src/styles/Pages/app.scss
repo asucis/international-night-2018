@@ -1,59 +1,60 @@
 .App {
-    text-align: center;
-  }
-  
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 30s linear;
+  height: 40vmin;
+}
+
+@media only screen and (max-width: 600px) {
   .App-logo {
-    animation: App-logo-spin infinite 30s linear;
-    height: 40vmin;
+    height: 55vmin;
   }
-  
-  @media only screen and (max-width: 600px) {
-    .App-logo {
-      height: 55vmin;
-    }
+}
+
+.App-header {
+  background: $dark-primary-color;
+  background: -webkit-linear-gradient(to right, $primary-color, $accent-color);
+  background: linear-gradient(to right, $primary-color, $accent-color);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: $text-icons;
+}
+
+.App-link {
+  color: gray;
+  text-decoration: none;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(360deg);
   }
-  
-  .App-header {
-    background: #5433FF;
-    background: -webkit-linear-gradient(to right, #73b6e3, #e8d073);
-    background: linear-gradient(to right, #73b6e3, #e8d073);
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
+
+  to {
+    transform: rotate(0deg);
   }
-  
-  .App-link {
-    color: gray;
-    text-decoration: none;
-  }
-  
-  @keyframes App-logo-spin {
-    from {
-      transform: rotate(360deg);
-    }
-    to {
-      transform: rotate(0deg);
-    }
-  }
-  
-  .event-details {
-    padding: 1rem;
-    border: 3px dotted #fff;
-  }
-  
-  .event-details .date {
-    margin: 0rem 0rem 0.5rem;
-  }
-  
-  .event-details .location i {
-    font-size: 1rem;
-    color: red;
-  }
-  
-  .countdown-title h1 {
-    margin-bottom: 0;
-  }
+}
+
+.event-details {
+  padding: 1rem;
+  border: 3px dotted #fff;
+}
+
+.event-details .date {
+  margin: 0rem 0rem 0.5rem;
+}
+
+.event-details .location i {
+  font-size: 1rem;
+  color: red;
+}
+
+.countdown-title h1 {
+  margin-bottom: 0;
+}

@@ -1,0 +1,30 @@
+.livestream {
+    background: $dark-primary-color;
+    background: -webkit-linear-gradient(to right, $primary-color, $accent-color);
+    background: linear-gradient(to right, $primary-color, $accent-color);
+    background-repeat: no-repeat;
+    height: 100vh;
+    size: cover;
+    position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.livestream .logo img {
+    height: 5.8rem;
+}
+
+.livestream .title {
+    
+}
+
+.livestream .embed {
+    padding: 0rem 0.8rem 0rem;
+}
+
+.livestream .time {
+    
+}

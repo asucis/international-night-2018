@@ -1,0 +1,12 @@
+.item:nth-child(odd)  {
+    background-color: $text-icons-dark;
+}
+
+.event .footer {
+    position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
