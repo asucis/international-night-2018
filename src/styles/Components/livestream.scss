@@ -13,18 +13,38 @@
     text-align: center;
 }
 
+.livestream .title, 
+.livestream .embed,
+.livestream .time {
+    color: $text-icons;
+    padding: 0rem 0.8rem 0rem;
+}
+
 .livestream .logo img {
     height: 5.8rem;
 }
 
-.livestream .title {
-    
+.livestream .title h2 {
+    margin: 0rem 0rem 0.5rem;
 }
 
-.livestream .embed {
-    padding: 0rem 0.8rem 0rem;
+.livestream .title .hashtag {
+    padding: 0rem 0rem 1rem;
 }
 
-.livestream .time {
-    
+.livestream .title .hashtag a {
+    padding: 0.2rem;
+    background-color: $dark-primary-color;
+}
+
+.livestream .title .hashtag a:link,
+.livestream .title .hashtag a:visited {
+    color: #fff;
+    text-decoration: none
+}
+
+.livestream .title .hashtag a:active,
+.livestream .title .hashtag a:hover {
+    color: #fff;
+    border: 3px $light-primary-color dotted;
 }

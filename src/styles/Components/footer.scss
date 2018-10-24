@@ -1,12 +1,13 @@
 .footer {
+    color: $primary-text;
     font-size: 0.8rem;
     margin: 1.8rem 0rem 2rem;
 }
 
 .footer .link {
-    color: #fff;
+    color: $primary-text;
     text-decoration: none;
-    border-bottom: 1.3px #fff dotted;
+    border-bottom: 1.3px $primary-text dotted;
     margin: 0rem 0.3rem 0rem;
 }
 
@@ -14,24 +15,29 @@
     text-decoration: underline;
 }
 
-.action-button {
+.footer .action-button {
     margin: 1rem 0rem 0.5rem;
 }
 
-.social-icons {
+.footer .social-icons {
     margin: 0rem 0rem 1rem;
     display: grid;
+    
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.social-icons a:link,
-.social-icons a:visited {
-    color: #fff;
+.footer .social-icons .icon {
+    text-align: center;
+}
+
+.footer .social-icons a:link,
+.footer .social-icons a:visited {
+    color: $primary-text;
     text-decoration: none
 }
 
-.social-icons a:active,
-.social-icons a:hover {
-    color: #fff;
+.footer .social-icons a:active,
+.footer .social-icons a:hover {
+    color: $primary-text;
     text-decoration: none
 }

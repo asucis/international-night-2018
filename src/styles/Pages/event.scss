@@ -1,12 +1,16 @@
+.item {
+    display: grid;
+    justify-content: center;
+    justify-self: center;
+    padding: 2rem 0rem 3rem;
+    align-items: center;
+}
+
 .item:nth-child(odd)  {
     background-color: $text-icons-dark;
 }
 
-.event .footer {
-    position: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+#event-footer {
+    padding: 0rem 0rem 2rem;
+    background-color: $text-icons;
 }

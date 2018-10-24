@@ -1,0 +1,13 @@
+.location {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "location-map location-details"
+}
+
+.location .map {
+    grid-area: location-map;
+}
+
+.location .details {
+    grid-area: location-details;
+}
