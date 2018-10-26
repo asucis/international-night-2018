@@ -9,15 +9,28 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     text-align: center;
 }
 
+@media only screen and (max-width: 1000px) {
+    .livestream .video {
+        margin: 0rem 3rem !important;
+    }
+}
+
 .livestream .title, 
-.livestream .embed,
 .livestream .time {
     color: $text-icons;
     padding: 0rem 0.8rem 0rem;
+}
+
+.livestream .video {
+    margin: 0rem 20rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: $text-icons;
 }
 
 .livestream .logo img {

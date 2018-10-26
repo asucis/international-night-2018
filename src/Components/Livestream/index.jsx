@@ -1,5 +1,6 @@
 import React from 'react'
 import ResponsiveEmbed from 'react-responsive-embed'
+import Countdown from '../Countdown'
 
 const Livestream = () => (
     <div className="livestream">
@@ -11,10 +12,12 @@ const Livestream = () => (
             <h2>See the world at ASU</h2>
             <div className="hashtag"><a href="https://www.instagram.com/explore/tags/intlnight/"> #INTLNIGHT</a></div>
         </div>
-        <div className="embed">
-            <ResponsiveEmbed ratio="16:9" src='//iframe.dacast.com/b/101744/c/455858' allowFullScreen />
+        <div className="video">
+            <ResponsiveEmbed src='//iframe.dacast.com/b/101744/c/455858' allowFullScreen />
         </div>
+        
         <div className="time"> 
+            
             <h3>Live video will begin at 7 pm MST.</h3>
         </div>
     </div>
