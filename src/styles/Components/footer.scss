@@ -1,0 +1,81 @@
+.footer {
+    color: $primary-text;
+    font-size: 0.8rem;
+    margin: 1.8rem 0rem 2rem;
+}
+
+.footer .link {
+    color: $primary-text;
+    text-decoration: none;
+    border-bottom: 1.3px $primary-text dotted;
+    margin: 0rem 0.3rem 0rem;
+}
+
+.footer .link:hover {
+    text-decoration: underline;
+}
+
+.footer .action-button {
+    margin: 1rem 0rem 0.5rem;
+}
+
+.footer .social-icons {
+    margin: 0rem 0rem 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer .social-icons .icon {
+    text-align: center;
+}
+
+.footer .social-icons a:link,
+.footer .social-icons a:visited {
+    color: $primary-text;
+    text-decoration: none
+}
+
+.footer .social-icons a:active,
+.footer .social-icons a:hover {
+    color: $primary-text;
+    text-decoration: none
+}
+
+.App .footer {
+    color: $text-icons;
+    font-size: 0.8rem;
+    margin: 1.8rem 0rem 2rem;
+}
+
+.App .footer .link {
+    color: $text-icons;
+    text-decoration: none;
+    border-bottom: 1.3px $text-icons dotted;
+    margin: 0rem 0.3rem 0rem;
+}
+
+.App .footer .link:hover {
+    text-decoration: underline;
+}
+
+.App .action-button {
+    margin: 0rem 0rem 0.5rem;
+}
+
+.App .social-icons {
+    margin: 0rem 0rem 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.App .social-icons a:link,
+.App .social-icons a:visited {
+    color: $text-icons;
+    text-decoration: none
+}
+
+.App .social-icons a:active,
+.App .social-icons a:hover {
+    color: $text-icons;
+    text-decoration: none
+}

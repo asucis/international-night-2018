@@ -14,16 +14,16 @@
 }
 
 .App-header {
-  background: #5433FF;
-  background: -webkit-linear-gradient(to right, #73b6e3, #e8d073);
-  background: linear-gradient(to right, #73b6e3, #e8d073);
+  background: $dark-primary-color;
+  background: -webkit-linear-gradient(to right, $primary-color, $accent-color);
+  background: linear-gradient(to right, $primary-color, $accent-color);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: $text-icons;
 }
 
 .App-link {
@@ -35,6 +35,7 @@
   from {
     transform: rotate(360deg);
   }
+
   to {
     transform: rotate(0deg);
   }
@@ -50,10 +51,14 @@
 }
 
 .event-details .location i {
-
+  font-size: 1rem;
   color: red;
 }
 
 .countdown-title h1 {
   margin-bottom: 0;
+}
+
+h5 {
+  margin: 0rem;
 }

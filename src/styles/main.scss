@@ -1,3 +1,14 @@
+@import './colors';
+@import './Pages/app.scss';
+@import './Pages/event.scss';
+@import './Components/countdown.scss';
+@import './Components/directory.scss';
+@import './Components/food.scss';
+@import './Components/footer.scss';
+@import './Components/livestream.scss';
+@import './Components/performances.scss';
+@import './Components/location.scss';
+
 body {
   margin: 0;
   padding: 0;

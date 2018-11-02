@@ -1,0 +1,63 @@
+.livestream {
+    background: $dark-primary-color;
+    background: -webkit-linear-gradient(to right, $primary-color, $accent-color);
+    background: linear-gradient(to right, $primary-color, $accent-color);
+    background-repeat: no-repeat;
+    height: 100vh;
+    size: cover;
+    position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    .livestream .video {
+        margin: 0rem 3rem !important;
+    }
+}
+
+.livestream .title, 
+.livestream .time {
+    color: $text-icons;
+    padding: 0rem 0.8rem 0rem;
+}
+
+.livestream .video {
+    margin: 0rem 20rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: $text-icons;
+}
+
+.livestream .logo img {
+    height: 5.8rem;
+}
+
+.livestream .title h2 {
+    margin: 0rem 0rem 0.5rem;
+}
+
+.livestream .title .hashtag {
+    padding: 0rem 0rem 1rem;
+}
+
+.livestream .title .hashtag a {
+    padding: 0.2rem;
+    background-color: $dark-primary-color;
+}
+
+.livestream .title .hashtag a:link,
+.livestream .title .hashtag a:visited {
+    color: #fff;
+    text-decoration: none
+}
+
+.livestream .title .hashtag a:active,
+.livestream .title .hashtag a:hover {
+    color: #fff;
+    border: 3px $light-primary-color dotted;
+}
