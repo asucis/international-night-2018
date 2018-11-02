@@ -1,0 +1,34 @@
+.container-performances th {
+    text-align: left;
+    border-bottom: 1px solid $primary-text;
+}
+
+@media only screen and (max-width: 600px) {
+    .container-performances {
+        padding: 0rem 2rem;
+    }
+
+    .container-performances th {
+        text-align: left;
+        border-bottom: none;
+    }
+
+    .container-performances tr:nth-child(even) {
+        background-color: initial;
+    }
+
+    .container-performances table tbody:nth-child(odd) {
+        vertical-align: top;
+        height: 2em !important;
+        background-color: $text-icons-dark !important;
+    }
+
+    .container-performances table tbody {
+        margin-bottom: 2rem;
+    }
+
+    .container-performances tr:nth-child(odd) {
+        vertical-align: bottom;
+        height: initial !important;
+    }
+}

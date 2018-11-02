@@ -1,0 +1,30 @@
+.container-food {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-areas:
+        "title title"
+        "left left";
+}
+
+.container-food th {
+    text-align: left;
+    border-bottom: 1px solid $primary-text;
+}
+
+@media only screen and (max-width: 600px) {
+    .container-food {
+        padding: 0rem 2rem;
+        grid-template-areas:
+            "title title"
+            "left left"
+    }
+
+    tr:nth-child(odd) {
+        vertical-align: bottom;
+        height: 2em !important;
+    }
+}
+
+.container-food tr:nth-child(even) {
+    background-color: $text-icons;
+}
