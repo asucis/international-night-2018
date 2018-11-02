@@ -10,7 +10,7 @@
 
     .container-performances th {
         text-align: left;
-        border-bottom: none;
+        border-bottom: initial !important;
     }
 
     .container-performances tr:nth-child(even) {
