@@ -19,6 +19,11 @@
             "left left"
     }
 
+    .container-food th {
+        text-align: left;
+        border-bottom: initial !important;
+    }
+
     tr:nth-child(odd) {
         vertical-align: bottom;
         height: 2em !important;
