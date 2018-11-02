@@ -17,31 +17,29 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" onClick={this.populateDate} />
           <div className="countdown-title">
             <h1>International Night</h1>
+            <p>Fri, Nov 16 (6pm onwards) - SDFC Fields Tempe</p>
+          </div>
+          <div className="event-details">
+          <h5>See you in </h5>
             <Countdown 
               date='Fri, 16 Nov 2018 18:00'
             />
-          </div>
-          <div className="event-details">
-            <div className="date">
-              Friday, November 16 (6-10pm)
-            </div>
-            <div className="location">
-              SDFC Fields, ASU Tempe
-            </div>
             <div className="action-button">
-              <Button size="small" variant="contained" color="default">
+              <Button size="small" variant="contained" color="blue">
                 <a
                 className="App-link"
-                href="https://www.facebook.com/events/2108742422677762/"
-                target="_blank"
+                href="/event"
                 rel="noopener noreferrer"
                 >
-                  Learn more
+                  Check out a Sneak Preview
                 </a>
               </Button>
             </div>
           </div>
+          <div className="credits">
+
           <Footer />
+          </div>
         </header>
       </div>
     );
