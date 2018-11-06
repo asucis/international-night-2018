@@ -5,66 +5,165 @@ import IdealImage from 'react-ideal-image'
 class food extends Component {
     render() {
         const headers = {
+            image: '',
             item: 'Food Item',
             type: 'Type',
         }
 
         const row = [
             {
+                image: <IdealImage
+                        placeholder="fish pakora"
+                        srcSet={[{ src: 'https://i.imgur.com/kkc7KjV.jpg', width: 50 }]}
+                        alt="fish pakora"
+                        width={20}
+                        height={20}
+                        />,
                 item: 'Fish Pakora',
                 type: 'Meat'
             },
             {
+                image: <IdealImage
+                        placeholder="veggie pakora"
+                        srcSet={[{ src: 'https://i.imgur.com/Kxk0bP9.jpg', width: 50 }]}
+                        alt="veggie pakora"
+                        width={20}
+                        height={20}
+                        />,
                 item: 'Veggie Pakora',
-                type: 'Vegetarian'
+                type: 'Ⓥ Vegetarian'
             },
             {
+                image: <IdealImage
+                        placeholder="mango lassi"
+                        srcSet={[{ src: 'https://i.imgur.com/PlOr12z.jpg', width: 50 }]}
+                        alt="mango lassi"
+                        width={20}
+                        height={20}
+                        />,
                 item: 'Mango Lassi',
-                type: 'Vegetarian'
+                type: 'Ⓥ Vegetarian'
             },
             {
+                image: <IdealImage
+                        placeholder="egg rice"
+                        srcSet={[{ src: 'https://i.imgur.com/NM9X6cA.jpg', width: 50 }]}
+                        alt="egg rice"
+                        width={20}
+                        height={20}
+                        />,
                 item: 'Egg Rice',
-                type: 'Vegetarian'
+                type: 'Ⓥ Vegetarian'
             },
             {
+                image: <IdealImage
+                        placeholder="veggie rice"
+                        srcSet={[{ src: 'https://i.imgur.com/3rO4yBM.jpg', width: 50 }]}
+                        alt="veggie rice"
+                        width={20}
+                        height={20}
+                        />,
                 item: 'Veggie Rice',
-                type: 'Vegan'
+                type: 'Ⓥ Vegan'
             },
             {
+                image: <IdealImage
+                        placeholder="mini chimichangas"
+                        srcSet={[{ src: 'https://i.imgur.com/93XLBHh.jpg', width: 50 }]}
+                        alt="mini chimichangas"
+                        width={20}
+                        height={20}
+                        />,
                 item: 'Mini Chimichangas',
                 type: 'Meat'
             },
             {
+                image: <IdealImage
+                        placeholder="quesadillas"
+                        srcSet={[{ src: 'https://i.imgur.com/JnErM1U.jpg', width: 50 }]}
+                        alt="quesadillas"
+                        width={20}
+                        height={20}
+                        />,
                 item: 'Quesadillas',
                 type: 'Meat'
             },
             {
+                image: <IdealImage
+                        placeholder="hummus and chicken"
+                        srcSet={[{ src: 'https://i.imgur.com/sjpE1kU.jpg', width: 50 }]}
+                        alt="hummus and chicken"
+                        width={20}
+                        height={20}
+                        />,
                 item: 'Hummus & Chicken',
                 type: 'Meat'
             },
             {
+                image: <IdealImage
+                        placeholder="hummus cilantro and jalapeno"
+                        srcSet={[{ src: 'https://i.imgur.com/RGBzNJs.jpg', width: 50 }]}
+                        alt="hummus cilantro and jalapeno"
+                        width={20}
+                        height={20}
+                        />,
                 item: 'Hummus Cilantro & Jalapeno',
-                type: 'Vegan'
+                type: 'Ⓥ Vegan'
             },
             {
+                image: <IdealImage
+                        placeholder="blue corn chips"
+                        srcSet={[{ src: 'https://i.imgur.com/ZGJplBf.jpg', width: 50 }]}
+                        alt="blue corn chips"
+                        width={20}
+                        height={20}
+                        />,
                 item: 'Blue Corn Chips',
-                type: 'Vegan'
+                type: 'Ⓥ Vegan'
             },
             {
+                image: <IdealImage
+                        placeholder="pita bread"
+                        srcSet={[{ src: 'https://i.imgur.com/vhZW1UA.jpg', width: 50 }]}
+                        alt="pita bread"
+                        width={20}
+                        height={20}
+                        />,
                 item: 'Pita Bread',
-                type: 'Vegetarian'
+                type: 'Ⓥ Vegetarian'
             },
             {
+                image: <IdealImage
+                        placeholder="firecracker roll"
+                        srcSet={[{ src: 'https://i.imgur.com/zrlPxuP.jpg', width: 50 }]}
+                        alt="firecracker roll"
+                        width={20}
+                        height={20}
+                        />,
                 item: 'Firecracker Rolls',
                 type: 'Meat'
             },
             {
+                image: <IdealImage
+                        placeholder="cheese pizza"
+                        srcSet={[{ src: 'https://i.imgur.com/LqaRz58.jpg', width: 50 }]}
+                        alt="cheese pizza"
+                        width={20}
+                        height={20}
+                        />,
                 item: 'Cheese Pizza',
-                type: 'Vegetarian'
+                type: 'Ⓥ Vegetarian'
             },
             {
+                image: <IdealImage
+                        placeholder="veggie pizza"
+                        srcSet={[{ src: 'https://i.imgur.com/hcTQvYm.jpg', width: 50 }]}
+                        alt="veggie pizza"
+                        width={20}
+                        height={20}
+                        />,
                 item: 'Veggie Pizza',
-                type: 'Vegan'
+                type: 'Ⓥ Vegan'
             }
         ]
 
