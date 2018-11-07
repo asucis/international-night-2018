@@ -97,7 +97,7 @@ class performances extends Component {
             },
             {
                 time: '7:33 - 7:43',
-                activity: <b>Raffle Ticket - Round 1</b>,
+                activity: <b>Prize Drawings - Round 1</b>,
                 type: '',
                 genre: ''
             },
@@ -157,7 +157,7 @@ class performances extends Component {
             },
             {
                 time: '9:00 - 9:10',
-                activity: <b>Raffle Ticket - Round 2</b>,
+                activity: <b>Prize Drawings - Round 2</b>,
                 type: '',
                 genre: ''
             },
