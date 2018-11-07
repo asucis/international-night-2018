@@ -33,17 +33,17 @@ class food extends Component {
                 item: 'Veggie Pakora',
                 type: 'Ⓥ Vegetarian'
             },
-            {
-                image: <IdealImage
-                        placeholder="mango lassi"
-                        srcSet={[{ src: 'https://i.imgur.com/PlOr12z.jpg', width: 50 }]}
-                        alt="mango lassi"
-                        width={20}
-                        height={20}
-                        />,
-                item: 'Mango Lassi',
-                type: 'Ⓥ Vegetarian'
-            },
+            //{
+            //    image: <IdealImage
+            //            placeholder="mango lassi"
+            //            srcSet={[{ src: 'https://i.imgur.com/PlOr12z.jpg', width: 50 }]}
+            //            alt="mango lassi"
+            //            width={20}
+            //            height={20}
+            //            />,
+            //    item: 'Mango Lassi',
+            //    type: 'Ⓥ Vegetarian'
+            //},
             {
                 image: <IdealImage
                         placeholder="egg rice"
@@ -52,7 +52,7 @@ class food extends Component {
                         width={20}
                         height={20}
                         />,
-                item: 'Egg Rice',
+                item: 'Egg Fried Rice',
                 type: 'Ⓥ Vegetarian'
             },
             {
@@ -63,8 +63,8 @@ class food extends Component {
                         width={20}
                         height={20}
                         />,
-                item: 'Veggie Rice',
-                type: 'Ⓥ Vegan'
+                item: 'Veggie Fried Rice',
+                type: 'Ⓥ Vegetarian'
             },
             {
                 image: <IdealImage
@@ -75,17 +75,6 @@ class food extends Component {
                         height={20}
                         />,
                 item: 'Mini Chimichangas',
-                type: 'Meat'
-            },
-            {
-                image: <IdealImage
-                        placeholder="quesadillas"
-                        srcSet={[{ src: 'https://i.imgur.com/JnErM1U.jpg', width: 50 }]}
-                        alt="quesadillas"
-                        width={20}
-                        height={20}
-                        />,
-                item: 'Quesadillas',
                 type: 'Meat'
             },
             {
@@ -145,17 +134,6 @@ class food extends Component {
             },
             {
                 image: <IdealImage
-                        placeholder="cheese pizza"
-                        srcSet={[{ src: 'https://i.imgur.com/LqaRz58.jpg', width: 50 }]}
-                        alt="cheese pizza"
-                        width={20}
-                        height={20}
-                        />,
-                item: 'Cheese Pizza',
-                type: 'Ⓥ Vegetarian'
-            },
-            {
-                image: <IdealImage
                         placeholder="veggie pizza"
                         srcSet={[{ src: 'https://i.imgur.com/hcTQvYm.jpg', width: 50 }]}
                         alt="veggie pizza"
@@ -164,7 +142,20 @@ class food extends Component {
                         />,
                 item: 'Veggie Pizza',
                 type: 'Ⓥ Vegan'
+            },
+            {
+                image: <IdealImage
+                        placeholder="veggie skewer"
+                        srcSet={[{ src: 'https://image.ibb.co/gUD5cq/in-food-075.jpg', width: 50 }]}
+                        alt="veggie skewer"
+                        width={20}
+                        height={20}
+                        />,
+                item: 'Veggie Skewer',
+                type: 'Ⓥ Vegetarian'
             }
+
+            
         ]
 
         const keyGetter = row => row.name
