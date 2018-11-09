@@ -18,187 +18,163 @@ class performances extends Component {
                 genre: ''
             },
             {
-                time: '6:05 - 6:10',
+                time: '6:05 - 6:09',
                 activity: 'From Chengdu',
                 type: 'Chinese',
                 genre: 'Music'
             },
             {
-                time: '6:12 - 6:16',
-                activity: 'Bryce Hagenson',
-                type: 'American',
-                genre: 'Music'
-            },
-            {
-                time: '6:18 - 6:20',
+                time: '6:12 - 6:14',
                 activity: '25 Degree',
                 type: 'Chinese',
                 genre: 'Dance'
             },
             {
-                time: '6:22 - 6:29',
+                time: '6:16 - 6:23',
                 activity: 'Prachi Sharma',
                 type: 'Indian',
                 genre: 'Music'
             },
             {
-                time: '6:31 - 6:34',
-                activity: 'Softlove',
+                time: '6:23 - 6:26',
+                activity: 'Superlove',
                 type: 'Chinese',
                 genre: 'Dance'
             },
             {
-                time: '6:36 - 6:39',
+                time: '6:28 - 6:31',
                 activity: 'Sofya Pangburn',
                 type: 'European',
                 genre: 'Music'
             },
             {
-                time: '6:41 - 6:46',
+                time: '6:33 - 6:38',
                 activity: 'Hawai\'i & Pacific Islander',
                 type: 'Hawaiian',
                 genre: 'Dance'
             },
             {
-                time: '6:48 - 6:50',
+                time: '6:40 - 6:41',
                 activity: 'Jenny & Frnd',
                 type: 'Chinese',
                 genre: 'Dance'
             },
             {
-                time: '6:52 - 7:00',
+                time: '6:44 - 6:52',
                 activity: 'Daniel Oh',
                 type: 'Korean',
                 genre: 'Music'
             },
             {
-                time: '7:00 - 7:10',
-                activity: <b>Baskins31 - Round 1</b>,
+                time: '6:53 - 7:03',
+                activity: <b>Prize Drawing - Round 1</b>,
                 type: '',
                 genre: ''
             },
             {
-                time: '7:12 - 7:19',
+                time: '7:06 - 7:14',
                 activity: 'Roobaroo',
                 type: 'Indian',
                 genre: 'Music'
             },
             {
-                time: '7:21 - 7:26',
+                time: '7:16 - 7:21',
                 activity: 'AZNA',
                 type: 'Asian & American',
                 genre: 'Dance'
             },
             {
-                time: '7:28 - 7:33',
+                time: '7:23 - 7:28',
                 activity: 'Chinese Culture',
                 type: 'Chinese',
                 genre: 'Culture'
             },
             {
-                time: '7:33 - 7:43',
-                activity: <b>Prize Drawings - Round 1</b>,
+                time: '7:29 - 7:39',
+                activity: <b>Baskins31 - Round 1</b>,
                 type: '',
                 genre: ''
             },
             {
-                time: '7:45 - 7:53',
-                activity: 'Devils Dancesport',
-                type: 'Salsa - Latin',
-                genre: 'Dance'
-            },
-            {
-                time: '7:55 - 8:02',
+                time: '7:41 - 7:48',
                 activity: 'Omani Student Association',
                 type: 'Omani',
                 genre: 'Culture'
             },
             {
-                time: '8:04 - 8:11',
+                time: '7:50 - 7:57',
                 activity: 'Swarajathi',
                 type: 'Indian',
                 genre: 'Dance'
             },
             {
-                time: '8:13 - 8:20',
-                activity: 'PERMIAS Phoenix',
-                type: 'Indonesian',
-                genre: 'Music'
-            },
-            {
-                time: '8:23 - 8:28',
+                time: '7:59 - 8:06',
                 activity: 'KODE ASU',
                 type: 'Korean',
                 genre: 'Dance'
             },
             {
-                time: '8:30 - 8:38',
+                time: '8:08 - 8:15',
                 activity: 'Formosan',
                 type: 'Chinese',
                 genre: 'Music'
             },
             {
-                time: '8:41 - 8:45',
+                time: '8:17 - 8:21',
                 activity: 'Andaaz',
                 type: 'Indian',
                 genre: 'Music'
             },
             {
-                time: '8:47 - 8:51',
+                time: '8:23 - 8:27',
                 activity: 'Nice to Meet You',
                 type: 'Chinese',
                 genre: 'Dance'
             },
             {
-                time: '8:53 - 9:00',
+                time: '8:29 - 8:36',
                 activity: '25 Degree',
                 type: 'Chinese',
                 genre: 'Dance'
             },
             {
-                time: '9:00 - 9:10',
+                time: '8:38 - 8:48',
                 activity: <b>Prize Drawings - Round 2</b>,
                 type: '',
                 genre: ''
             },
             {
-                time: '9:12 - 9:19',
+                time: '8:50 - 8:57',
                 activity: 'African Praise Band',
                 type: 'African',
                 genre: 'Music'
             },
             {
-                time: '9:22 - 9:25',
+                time: '9:00 - 9:03',
                 activity: 'Philippine American Students Association',
                 type: 'Philippine',
                 genre: 'Dance'
             },
             {
-                time: '9:25 - 9:35',
-                activity: <b>Baskins31 - Round 2</b>,
-                type: '',
-                genre: ''
-            },
-            {
-                time: '9:37 - 9:40',
+                time: '9:03 - 9:06',
                 activity: 'Mot Long',
                 type: 'Chinese',
                 genre: 'Dance'
             },
             {
-                time: '9:42 - 9:48',
+                time: '9:08 - 9:14',
                 activity: 'Ice Melon',
                 type: 'Chinese',
                 genre: 'Dance'
             },
             {
-                time: '9:48 - 9:53',
+                time: '9:15 - 9:25',
                 activity: <b>Big Prize of the Night</b>,
                 type: '',
                 genre: ''
             },
             {
-                time: '9:53 - 9:55',
+                time: '9:25 - 9:30',
                 activity: 'Vote of Thanks',
                 type: '',
                 genre: ''
