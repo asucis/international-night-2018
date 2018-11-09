@@ -67,7 +67,7 @@ class performances extends Component {
             },
             {
                 time: '6:53 - 7:03',
-                activity: <b>Prize Drawing - Round 1</b>,
+                activity: <b>Prize Drawings - Round 1</b>,
                 type: '',
                 genre: ''
             },
