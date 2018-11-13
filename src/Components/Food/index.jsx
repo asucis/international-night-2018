@@ -13,6 +13,39 @@ class food extends Component {
         const row = [
             {
                 image: <IdealImage
+                        placeholder="assam milk tea"
+                        srcSet={[{ src: 'https://i.imgur.com/n8vzly1.jpg', width: 50 }]}
+                        alt="assam milk tea"
+                        width={20}
+                        height={20}
+                        />,
+                item: 'Assam Milk Tea',
+                type: 'Drink'
+            },
+            {
+                image: <IdealImage
+                        placeholder="jasmine tea"
+                        srcSet={[{ src: 'https://i.imgur.com/mEmhq3H.jpg', width: 50 }]}
+                        alt="jasmine tea"
+                        width={20}
+                        height={20}
+                        />,
+                item: 'Jasmine Tea',
+                type: 'Drink'
+            },
+            {
+                image: <IdealImage
+                        placeholder="mango lassi"
+                        srcSet={[{ src: 'https://i.imgur.com/PlOr12z.jpg', width: 50 }]}
+                        alt="mango lassi"
+                        width={20}
+                        height={20}
+                        />,
+                item: 'Mango Lassi',
+                type: 'Drink'
+            },
+            {
+                image: <IdealImage
                         placeholder="fish pakora"
                         srcSet={[{ src: 'https://i.imgur.com/kkc7KjV.jpg', width: 50 }]}
                         alt="fish pakora"
@@ -33,17 +66,6 @@ class food extends Component {
                 item: 'Veggie Pakora',
                 type: 'Ⓥ Vegetarian'
             },
-            //{
-            //    image: <IdealImage
-            //            placeholder="mango lassi"
-            //            srcSet={[{ src: 'https://i.imgur.com/PlOr12z.jpg', width: 50 }]}
-            //            alt="mango lassi"
-            //            width={20}
-            //            height={20}
-            //            />,
-            //    item: 'Mango Lassi',
-            //    type: 'Ⓥ Vegetarian'
-            //},
             {
                 image: <IdealImage
                         placeholder="egg rice"
@@ -153,9 +175,18 @@ class food extends Component {
                         />,
                 item: 'Veggie Skewer',
                 type: 'Ⓥ Vegetarian'
+            },
+            {
+                image: <IdealImage
+                        placeholder="tikil gomen"
+                        srcSet={[{ src: 'https://i.imgur.com/zCt3UM7.jpg', width: 50 }]}
+                        alt="tikil gomen"
+                        width={20}
+                        height={20}
+                        />,
+                item: 'Tikil Gomen',
+                type: 'Ⓥ Vegetarian'
             }
-
-            
         ]
 
         const keyGetter = row => row.name
