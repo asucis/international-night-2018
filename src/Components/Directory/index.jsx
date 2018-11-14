@@ -11,7 +11,7 @@ class directory extends Component {
 
         const first = [
             {
-                organization: 'Falun Dafa',
+                organization: 'Taiwanese Student Association',
                 table: 1
             },
             {
@@ -43,7 +43,7 @@ class directory extends Component {
                 table: 8
             },
             {
-                organization: 'Taiwanese Student Association',
+                organization: 'Falun Dafa',
                 table: 9
             },
             {
@@ -59,95 +59,103 @@ class directory extends Component {
                 table: 12
             },
             {
-                organization: 'Alliance of Indigenous Peoples',
+                organization: 'Emirates Students Association',
                 table: 13
             },
             {
-                organization: 'Fun-Fun Student Organization',
+                organization: 'Residence Hall Association',
                 table: 14
             },
             {
-                organization: 'K-Pop Dance Evolution (KoDE)',
+                organization: 'Alliance of Indigenous Peoples',
                 table: 15
             },
             {
-                organization: 'Iranian Student Association',
+                organization: 'Fun-Fun Student Organization',
                 table: 16
             },
             {
-                organization: 'Hawai\'i & Pacific Islander Club (HPIC)',
+                organization: 'K-Pop Dance Evolution (KoDE)',
                 table: 17
+            },
+            {
+                organization: 'Iranian Student Association',
+                table: 18
             }
         ]
 
         const second = [
             {
-                organization: 'Saudi Student Club',
-                table: 18
-            },
-            {
-                organization: 'W. P. Carey Global Education Center',
+                organization: 'Hawai\'i & Pacific Islander Club (HPIC)',
                 table: 19
             },
             {
-                organization: 'Malaysian Students Association',
+                organization: 'Saudi Student Club',
                 table: 20
             },
             {
-                organization: 'Muslim Students Association',
+                organization: 'W. P. Carey Global Education Center',
                 table: 21
             },
             {
-                organization: 'Southeast Asian American Student Association',
+                organization: 'Malaysian Students Association',
                 table: 22
             },
             {
-                organization: 'Sun Devil Fitness Center (SDFC)',
+                organization: 'Muslim Students Association',
                 table: 23
             },
             {
-                organization: 'Chinese English Language Bridge',
+                organization: 'Southeast Asian American Student Association',
                 table: 24
             },
             {
-                organization: 'Vietnamese Student Union',
+                organization: 'Sun Devil Fitness Center (SDFC)',
                 table: 25
             },
             {
-                organization: 'Best Buddies',
+                organization: 'Chinese English Language Bridge',
                 table: 26
             },
             {
-                organization: 'Sponsored Students Advisory Committee',
+                organization: 'Vietnamese Student Union',
                 table: 27
             },
             {
-                organization: 'The Global Council of Diplomats',
+                organization: 'Best Buddies',
                 table: 28
             },
             {
-                organization: 'Indian Student Organization',
+                organization: 'Sponsored Students Advisory Committee',
                 table: 29
             },
             {
-                organization: 'ASU Study Abroad Office',
+                organization: 'The Global Council of Diplomats',
                 table: 30
             },
             {
-                organization: 'Nepalese Student\'s Association',
+                organization: 'Indian Student Organization',
                 table: 31
             },
             {
-                organization: 'El Concilio',
+                organization: 'ASU Study Abroad Office',
                 table: 32
             },
             {
-                organization: 'ASU Chinese Student & Scholar Association',
+                organization: 'Nepalese Student\'s Association',
                 table: 33
             },
             {
-                organization: 'Office of Zero Waste',
+                organization: 'El Concilio',
                 table: 34
+            },
+            {
+                organization: 'ASU Chinese Student & Scholar Association',
+                table: 35
+            },
+            {
+                organization: 'Office of Zero Waste',
+                table: 36
             }
         ]
 
@@ -160,8 +168,8 @@ class directory extends Component {
                     <div className="section-heading">
                         <h2>Directory</h2>
                         <IdealImage
-                            placeholder="hello"
-                            srcSet={[{ src: 'https://i.imgur.com/1auNk8d.png', width: 3500 }]}
+                            placeholder="international night map"
+                            srcSet={[{ src: 'https://i.imgur.com/eBOkVcl.png', width: 3500 }]}
                             alt="doggo"
                             width={3500}
                             height={2095}
