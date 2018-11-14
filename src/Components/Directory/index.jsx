@@ -31,7 +31,7 @@ class directory extends Component {
                 table: 5
             },
             {
-                organization: 'Asian / Asian Pacific Amercian Students\' Coalition (AAPASC)',
+                organization: 'Asian / Asian Pacific American Students\' Coalition (AAPASC)',
                 table: 6
             },
             {
