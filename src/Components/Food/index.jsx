@@ -75,7 +75,7 @@ class food extends Component {
                         height={20}
                         />,
                 item: 'Egg Fried Rice',
-                type: 'Ⓥ Vegetarian'
+                type: 'Meat / Ⓥ Vegetarian'
             },
             {
                 image: <IdealImage
