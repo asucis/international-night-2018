@@ -102,7 +102,7 @@ class directory extends Component {
                 table: 22
             },
             {
-                organization: 'Muslim Students Association',
+                organization: 'First Love Fellowship',
                 table: 23
             },
             {
