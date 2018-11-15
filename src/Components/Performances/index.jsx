@@ -158,13 +158,13 @@ class performances extends Component {
             {
                 time: '9:03 - 9:06',
                 activity: 'Mot Long',
-                type: 'Chinese',
+                type: 'Vietnamese',
                 genre: 'Dance'
             },
             {
                 time: '9:08 - 9:14',
-                activity: 'Ice Melon',
-                type: 'Chinese',
+                activity: 'Kawaii Melon',
+                type: 'Japanese',
                 genre: 'Dance'
             },
             {

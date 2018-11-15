@@ -13,12 +13,12 @@ const Livestream = () => (
             <div className="hashtag"><a href="https://www.instagram.com/explore/tags/asuintlnight/"> #ASUINTLNIGHT</a></div>
         </div>
         <div className="video">
-            <ResponsiveEmbed src='https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FASUCIS%2Fvideos%2F256886918359887%2F&show_text=0&width=560' allowFullScreen />
+            <ResponsiveEmbed src='https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FASUCIS%2Fvideos%2F215470096035138%2F&show_text=0&width=560' allowFullScreen />
         </div>
         
         <div className="time"> 
             
-            <h3>Live video will begin at 6 pm MST.</h3>
+            <h3><span role="img" aria-label="red-circle">🔴</span> Live video will begin at 6 pm MST.</h3>
         </div>
     </div>
 )

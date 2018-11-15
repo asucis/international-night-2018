@@ -9,7 +9,7 @@ import * as serviceWorker from './serviceWorker'
 ReactDOM.render(
     <BrowserRouter>
         <Switch>
-            <Route exact path='/' component={App} />
+            <Route exact path='/' component={Event} />
             <Route path='/event' component={Event} />
         </Switch>
     </BrowserRouter>,
