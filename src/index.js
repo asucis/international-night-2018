@@ -1,17 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/main.scss';
-import Event from './Pages/event';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import App from './App';
+// import Event from './Pages/event';
+// import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <BrowserRouter>
-    <Switch>
-      <Route exact path="/" component={Event} />
-      <Route path="/event" component={Event} />
-    </Switch>
-  </BrowserRouter>,
+  // <BrowserRouter>
+  //   <Switch>
+  //     <Route exact path="/" component={Event} />
+  //     <Route path="/event" component={Event} />
+  //   </Switch>
+  // </BrowserRouter>,
+  <App />,
   document.getElementById('root')
 );
 
